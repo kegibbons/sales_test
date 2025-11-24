@@ -1,0 +1,24 @@
+# -----------------------------------------------
+#  BRONZE 
+# -----------------------------------------------
+
+# Stays close to the source 
+# Process malformed JSON readable so it can land in DuckDB - write to '\data\raw\dimension_fixed.json'
+#   (Only if needed). 
+# Defer all semantic and business-oriented cleaning to Silver
+
+# -----------------------------------------------
+#  SILVER
+# -----------------------------------------------
+
+# Apply light cleaning
+# Standardize data types since JSON is... mostly consistent (DATE, DOUBLE, INTEGER)
+# Create clean silver dimension table
+# Create conformed sales fact table so Power BI can easily read
+# Logs activity and row counts
+# Detail level
+# Fact table 
+
+# -----------------------------------------------
+#  GOLD
+# -----------------------------------------------
