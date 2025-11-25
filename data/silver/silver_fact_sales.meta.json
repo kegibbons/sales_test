@@ -1,0 +1,84 @@
+{
+  "table": "silver_fact_sales",
+  "row_count": 61883,
+  "columns": [
+    {
+      "name": "SaleId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Quantity",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "OrderId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "OrderDate",
+      "type": "DATE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "CustomerId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "CustomerName",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "CustomerCountry",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "CustomerCity",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "ProductId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "ProductName",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "ProductCountry",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "CountryCurrency",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "CountryGDPPerCapita",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    }
+  ]
+}

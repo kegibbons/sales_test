@@ -1,0 +1,24 @@
+# Ignore Python junk
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.venv/
+uv.lock
+
+# Ignore Access files
+*.accdb
+*.mdb
+
+# Ignore raw + fixed JSON if needed (optional)
+data/raw/*_fixed.json
+
+# Ignore log files
+*.log
+
+# Ignore VS Code junk
+.vscode/
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
