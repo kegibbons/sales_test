@@ -1,0 +1,24 @@
+{
+  "table": "silver_orders",
+  "row_count": 11235,
+  "columns": [
+    {
+      "name": "OrderId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "CustomerId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Date",
+      "type": "DATE",
+      "not_null": false,
+      "primary_key": false
+    }
+  ]
+}

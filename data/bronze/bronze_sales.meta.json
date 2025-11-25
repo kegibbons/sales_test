@@ -1,0 +1,30 @@
+{
+  "table": "bronze_sales",
+  "row_count": 61883,
+  "columns": [
+    {
+      "name": "SaleId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "OrderId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "ProductId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Quantity",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    }
+  ]
+}

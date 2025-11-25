@@ -1,0 +1,48 @@
+{
+  "table": "bronze_customers",
+  "row_count": 400,
+  "columns": [
+    {
+      "name": "CustomerId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Active",
+      "type": "BOOLEAN",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Name",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Address",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "City",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Country",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Email",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    }
+  ]
+}

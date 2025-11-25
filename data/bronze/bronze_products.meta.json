@@ -1,0 +1,30 @@
+{
+  "table": "bronze_products",
+  "row_count": 12,
+  "columns": [
+    {
+      "name": "ProductId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Name",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "ManufacturedCountry",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "WeightGrams",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    }
+  ]
+}
