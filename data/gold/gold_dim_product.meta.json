@@ -1,0 +1,30 @@
+{
+  "table": "gold_dim_product",
+  "row_count": 12,
+  "columns": [
+    {
+      "name": "ProductId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "ProductName",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "ProductCountry",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "WeightGrams",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    }
+  ]
+}

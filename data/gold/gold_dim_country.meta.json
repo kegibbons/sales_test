@@ -1,0 +1,132 @@
+{
+  "table": "gold_dim_country",
+  "row_count": 224,
+  "columns": [
+    {
+      "name": "Country",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Region",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Currency",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Population",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "AreaSqMi",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "PopDensity",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "CoastlineRatio",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "NetMigration",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "InfantMortality",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "GDPPerCapita",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "LiteracyPct",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "PhonesPer1000",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "ArablePct",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "CropsPct",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "OtherLandPct",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Climate",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Birthrate",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Deathrate",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Agriculture",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Industry",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Service",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    }
+  ]
+}
