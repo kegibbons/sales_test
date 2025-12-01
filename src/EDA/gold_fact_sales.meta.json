@@ -1,0 +1,60 @@
+{
+  "table": "gold_fact_sales",
+  "row_count": 61883,
+  "columns": [
+    {
+      "name": "SaleId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "OrderId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "DateKey",
+      "type": "INTEGER",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "CustomerId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "ProductId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Country",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Quantity",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "WeightGrams",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "TotalWeightGrams",
+      "type": "DOUBLE",
+      "not_null": false,
+      "primary_key": false
+    }
+  ]
+}

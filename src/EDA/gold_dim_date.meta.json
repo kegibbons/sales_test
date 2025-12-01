@@ -1,0 +1,72 @@
+{
+  "table": "gold_dim_date",
+  "row_count": 740,
+  "columns": [
+    {
+      "name": "DateKey",
+      "type": "INTEGER",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Date",
+      "type": "DATE",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Year",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Quarter",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Month",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "MonthName",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "YearMonth",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "WeekOfYear",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "DayOfWeek",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "DayOfWeekName",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "IsWeekend",
+      "type": "BOOLEAN",
+      "not_null": false,
+      "primary_key": false
+    }
+  ]
+}

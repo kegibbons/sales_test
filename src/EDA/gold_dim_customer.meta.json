@@ -1,0 +1,42 @@
+{
+  "table": "gold_dim_customer",
+  "row_count": 400,
+  "columns": [
+    {
+      "name": "CustomerId",
+      "type": "BIGINT",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "CustomerName",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "CustomerCity",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "CustomerCountry",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Active",
+      "type": "BOOLEAN",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
+      "name": "Email",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    }
+  ]
+}
