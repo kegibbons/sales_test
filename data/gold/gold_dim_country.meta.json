@@ -21,6 +21,12 @@
       "primary_key": false
     },
     {
+      "name": "Name",
+      "type": "VARCHAR",
+      "not_null": false,
+      "primary_key": false
+    },
+    {
       "name": "Population",
       "type": "BIGINT",
       "not_null": false,
