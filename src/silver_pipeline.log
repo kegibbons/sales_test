@@ -66,3 +66,27 @@
 [2025-11-25 18:52:05] [SILVER] [ROWCHECK] products: Bronze=12, Silver=12, Diff=0
 [2025-11-25 18:52:05] [SILVER] [ROWCHECK] sales: Bronze=61883, Silver=61883, Diff=0
 [2025-11-25 18:52:05] [SILVER] Silver pipeline finished!
+[2025-12-04 12:17:16] [SILVER] Starting silver pipeline. DB: c:\Projects\sales_test\src\sales.duckdb
+[2025-12-04 12:17:16] [SILVER] Creating silver_customers...
+[2025-12-04 12:17:16] [SILVER] Row count for silver_customers: 400
+[2025-12-04 12:17:16] [SILVER] Creating silver_products...
+[2025-12-04 12:17:16] [SILVER] Row count for silver_products: 12
+[2025-12-04 12:17:16] [SILVER] Creating silver_orders...
+[2025-12-04 12:17:16] [SILVER] Row count for silver_orders: 11235
+[2025-12-04 12:17:16] [SILVER] Creating silver_sales...
+[2025-12-04 12:17:16] [SILVER] Row count for silver_sales: 61883
+[2025-12-04 12:17:16] [SILVER] Creating silver_countries...
+[2025-12-04 12:17:16] [SILVER] Row count for silver_countries: 224
+[2025-12-04 12:17:16] [SILVER] Creating silver_fact_sales...
+[2025-12-04 12:17:16] [SILVER] Row count for silver_fact_sales: 61883
+[2025-12-04 12:17:16] [SILVER] Running simple data quality checks...
+[2025-12-04 12:17:16] [SILVER] Orders with missing customers: 0
+[2025-12-04 12:17:16] [SILVER] Sales with missing orders: 0
+[2025-12-04 12:17:16] [SILVER] Sales with missing products: 0
+[2025-12-04 12:17:16] [SILVER] Comparing bronze vs silver row counts...
+[2025-12-04 12:17:16] [SILVER] [ROWCHECK] countries: Bronze=224, Silver=224, Diff=0
+[2025-12-04 12:17:16] [SILVER] [ROWCHECK] customers: Bronze=400, Silver=400, Diff=0
+[2025-12-04 12:17:16] [SILVER] [ROWCHECK] orders: Bronze=11235, Silver=11235, Diff=0
+[2025-12-04 12:17:16] [SILVER] [ROWCHECK] products: Bronze=12, Silver=12, Diff=0
+[2025-12-04 12:17:16] [SILVER] [ROWCHECK] sales: Bronze=61883, Silver=61883, Diff=0
+[2025-12-04 12:17:16] [SILVER] Silver pipeline finished.
