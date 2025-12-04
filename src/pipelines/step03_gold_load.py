@@ -103,6 +103,7 @@ def create_gold_dim_country(con: duckdb.DuckDBPyConnection) -> None:
             c.Country,
             c.Region,
             c.Currency,
+            c.Name,
             c.Population,
             c.AreaSqMi,
             c.PopDensity,
